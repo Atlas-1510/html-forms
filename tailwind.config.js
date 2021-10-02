@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "background-color": "#eceef1",
+        "intuit-background-color": "#eceef1",
+        "intuit-blue": "#0077C5",
+        "intuit-border-gray": "#4c4c4c",
       },
       fontFamily: {
         avenir: "AvenirNext",

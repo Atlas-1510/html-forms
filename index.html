@@ -10,7 +10,9 @@
   <body class="font-avenir bg-intuit-background-color px-8">
     <header class="hidden md:flex justify-end items-center py-4">
       <div class="flex flex-col">
-        <span class="text-sm">Already have an Intuit account?</span>
+        <span class="text-sm text-intuit-text-gray"
+          >Already have an Intuit account?</span
+        >
         <a class="text-sm text-intuit-blue">I forgot my User ID or Password</a>
       </div>
       <button class="blue-button">
@@ -20,10 +22,19 @@
     </header>
     <main class="flex flex-col items-center">
       <div class="intuit-logo"></div>
-      <nav>
-        <a>mint</a>
-        <a>quickbooks</a>
-        <a>turbotax</a>
+      <nav class="flex w-full items-center justify-center my-3">
+        <a class="flex m-1">
+          <img src="public/img/mint-logo.svg" class="w-5" />
+          <span class="pl-1 text-intuit-text-gray text-lg">mint</span>
+        </a>
+        <a class="flex m-1">
+          <img src="public/img/quickbooks-logo.svg" class="w-5" />
+          <span class="pl-1 text-intuit-text-gray text-lg">quickbooks</span>
+        </a>
+        <a class="flex m-1">
+          <img src="public/img/turbotax-logo.svg" class="w-5" />
+          <span class="pl-1 text-intuit-text-gray text-lg">turbotax</span>
+        </a>
       </nav>
       <div>
         <h1>Create an Intuit account</h1>

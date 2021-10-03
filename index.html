@@ -44,20 +44,58 @@
           justify-center
           w-11/12
           intuit-sm-break:w-96
+          p-6
+          border border-intuit-border-gray-light
+          rounded-sm
         "
       >
-        <h1>Create an Intuit account</h1>
-        <div>
+        <h1 class="text-2xl mb-3 text-intuit-text-gray">
+          Create an Intuit account
+        </h1>
+        <div class="text-center text-sm text-intuit-text-gray">
           <span>One account for everything Intuit, including Mint.</span>
-          <span>Learn more</span>
+          <span class="text-intuit-blue">Learn more</span>
         </div>
-        <form>
-          <label for="email">Email address</label>
-          <input type="email" id="email" />
-          <label for="phone">Phone <span>(recommended)</span></label>
-          <input type="tel" id="phone" />
-          <label for="password">Password</label>
-          <input type="password" id="password" />
+        <div class="md:hidden text-center">
+          <span class="text-sm text-intuit-text-gray"
+            >Already have an Intuit account?</span
+          >
+          <span class="text-sm text-intuit-blue">Sign In</span>
+        </div>
+        <form class="flex flex-col items-start w-full">
+          <label for="email" class="mt-5 text-intuit-border-gray"
+            >Email address</label
+          >
+          <input
+            type="email"
+            id="email"
+            class="border border-intuit-input-border rounded-sm w-full my-2 p-2"
+          />
+          <label for="phone" class="mt-5 text-intuit-border-gray"
+            >Phone
+            <span class="text-intuit-input-border">(recommended)</span></label
+          >
+          <input
+            type="tel"
+            id="phone"
+            class="border border-intuit-input-border rounded-sm w-full my-2 p-2"
+          />
+          <label for="password" class="mt-5 text-intuit-border-gray"
+            >Password</label
+          >
+          <input
+            type="password"
+            id="password"
+            class="border border-intuit-input-border rounded-sm w-full my-2 p-2"
+          />
+          <label for="confirm-password" class="mt-5 text-intuit-border-gray"
+            >Confirm Password</label
+          >
+          <input
+            type="password"
+            id="confirm-password"
+            class="border border-intuit-input-border rounded-sm w-full my-2 p-2"
+          />
           <button type="submit"><span>*lock icon*</span>Create Account</button>
         </form>
         <span

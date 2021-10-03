@@ -2,7 +2,7 @@
 
 From The Odin Project's [curriculum](https://www.theodinproject.com/paths/full-stack-javascript/courses/html-and-css/lessons/html-forms)
 
-[Live Demo]()
+[Live Demo](https://atlas-1510.github.io/html-forms/)
 
 ## Assignment
 

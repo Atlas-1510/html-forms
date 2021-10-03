@@ -7,8 +7,16 @@
     <link rel="stylesheet" href="public/styles.css" />
     <title>HTML Forms</title>
   </head>
-  <body class="font-avenir bg-intuit-background-color min-w-320px">
-    <header class="hidden md:flex justify-end items-center py-4">
+  <body
+    class="
+      font-avenir
+      bg-intuit-background-color
+      min-w-320px
+      flex flex-col
+      items-center
+    "
+  >
+    <header class="hidden md:flex justify-end items-center py-4 w-full px-8">
       <div class="flex flex-col">
         <span class="text-sm text-intuit-text-gray"
           >Already have an Intuit account?</span
@@ -22,14 +30,13 @@
           border
           bg-intuit-blue
           border-intuit-border-gray
-          mr-8
         "
       >
         <img src="./public/img/lock.svg" class="mr-2" />
         Sign In
       </button>
     </header>
-    <main class="flex flex-col items-center w-full my-5">
+    <main class="flex flex-col items-center w-full my-5 intuit-sm-break:px-8">
       <div class="intuit-logo cursor-pointer"></div>
       <nav class="flex w-full items-center justify-center my-3">
         <a class="flex m-1 cursor-pointer">
@@ -55,7 +62,7 @@
         "
       >
         <div class="p-6 flex flex-col items-center justify-center">
-          <h1 class="text-2xl mb-3 text-intuit-text-gray">
+          <h1 class="text-2xl mb-3 text-intuit-text-gray text-center">
             Create an Intuit account
           </h1>
           <div class="text-center text-sm text-intuit-text-gray">
@@ -171,8 +178,10 @@
         flex flex-col
         items-center
         justify-center
-        mx-40
+        w-full
         mb-12
+        text-center
+        px-8
       "
     >
       <nav>
@@ -189,10 +198,8 @@
         subject to change without notice.
       </span>
     </footer>
-    <div>
-      <button class="bg-white w-full py-5 text-left pl-5 text-intuit-blue">
-        Privacy Settings
-      </button>
+    <div class="bg-white w-full pl-5">
+      <button class="py-5 text-left text-intuit-blue">Privacy Settings</button>
     </div>
   </body>
 </html>

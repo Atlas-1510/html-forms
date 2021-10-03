@@ -32837,6 +32837,14 @@ video {
   content: none;
 }
 
+.intuit-logo {
+  background-image: url("./img/logos.png");
+  background-size: 562px 83px;
+  background-position: 0 0;
+  width: 118px;
+  height: 35px;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

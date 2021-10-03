@@ -39,3 +39,13 @@
           items-center;
   }
 }
+
+@layer utilities {
+  .intuit-logo {
+    background-image: url("./img/logos.png");
+    background-size: 562px 83px;
+    background-position: 0 0;
+    width: 118px;
+    height: 35px;
+  }
+}

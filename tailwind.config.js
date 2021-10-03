@@ -23,6 +23,9 @@ module.exports = {
       minWidth: {
         "320px": "320px",
       },
+      fontSize: {
+        xxs: "0.5rem",
+      },
     },
   },
   variants: {

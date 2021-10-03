@@ -26,17 +26,15 @@
 }
 
 @layer components {
-  .blue-button {
-    @apply bg-intuit-blue
-          text-white
-          border border-intuit-border-gray
+  .intuit-button {
+    @apply text-white
           rounded
           px-8
           py-2
-          ml-2
           flex
           justify-center
-          items-center;
+          items-center
+          shadow-md;
   }
 }
 

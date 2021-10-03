@@ -12,6 +12,15 @@ module.exports = {
       fontFamily: {
         avenir: "AvenirNext",
       },
+      screens: {
+        "intuit-sm-break": "480px",
+      },
+      maxWidth: {
+        "8xl": "96rem",
+      },
+      minWidth: {
+        "320px": "320px",
+      },
     },
   },
   variants: {

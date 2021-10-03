@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="public/styles.css" />
     <title>HTML Forms</title>
   </head>
-  <body class="font-avenir bg-intuit-background-color px-8">
+  <body class="font-avenir bg-intuit-background-color sm:px-8 min-w-320px">
     <header class="hidden md:flex justify-end items-center py-4">
       <div class="flex flex-col">
         <span class="text-sm text-intuit-text-gray"
@@ -20,7 +20,7 @@
         Sign In
       </button>
     </header>
-    <main class="flex flex-col items-center">
+    <main class="flex flex-col items-center w-full my-5">
       <div class="intuit-logo"></div>
       <nav class="flex w-full items-center justify-center my-3">
         <a class="flex m-1">
@@ -36,7 +36,16 @@
           <span class="pl-1 text-intuit-text-gray text-lg">turbotax</span>
         </a>
       </nav>
-      <div>
+      <div
+        class="
+          bg-white
+          flex flex-col
+          items-center
+          justify-center
+          w-11/12
+          intuit-sm-break:w-96
+        "
+      >
         <h1>Create an Intuit account</h1>
         <div>
           <span>One account for everything Intuit, including Mint.</span>
